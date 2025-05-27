@@ -1,1 +1,1 @@
-web: gunicorn --bind :8000 bellsCRM.wsgi:application
+web: gunicorn --bind :8000 deployment.wsgi:application
